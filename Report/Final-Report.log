@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2014.12.22)  26 DEC 2014 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2014.12.22)  26 DEC 2014 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -536,25 +536,25 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
- [2] [3] [4] [5] [6]
+ [2] [3] [4] [5] [6] [7]
 (./Final-Report.aux) ) 
 Here is how much of TeX's memory you used:
- 2288 strings out of 493108
- 28456 string characters out of 6140724
+ 2289 strings out of 493108
+ 28479 string characters out of 6140724
  86852 words of memory out of 5000000
- 5735 multiletter control sequences out of 15000+600000
+ 5736 multiletter control sequences out of 15000+600000
  11155 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,4n,23p,665b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,5n,23p,665b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnbx10.pfb></usr/share/tex
 mf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texmf-dist/fonts/type1/vnt
 ex/vnr/vnbxti10.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></us
 r/share/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on Final-Report.pdf (6 pages, 93895 bytes).
+Output written on Final-Report.pdf (7 pages, 96044 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
