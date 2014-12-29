@@ -9,7 +9,7 @@ _Báo cáo tiến độ của báo cáo_
 + [x] Thiết ké giao diện
 + [x] Thiết kế dữ liệu
 + [ ] Thiết kế xử lý
-+ [ ] Kế hoạch lập trình và kiểm thử đơn vị
++ [x] Kế hoạch lập trình và kiểm thử đơn vị
 + [ ] Kết luận
 + [ ] Những gì đã làm được và chưa làm được
 + [ ] Sơ đồ quan hệ giữa các màn hình?

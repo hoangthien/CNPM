@@ -20,5 +20,5 @@
 \contentsline {subsection}{\numberline {7.3}T\IeC {\h \ocircumflex } ch\IeC {\'\uhorn }c ki\IeC {\'\ecircumflex }n tr\IeC {\'u}c ch\IeC {\uhorn }\IeC {\ohorn }ng tr\IeC {\`\i }nh}{20}
 \contentsline {subsection}{\numberline {7.4}Qu\IeC {\h a}n l\IeC {\'y} version}{20}
 \contentsline {subsection}{\numberline {7.5}Chu\IeC {\h \acircumflex }n vi\IeC {\'\ecircumflex }t m\IeC {\~a}}{20}
-\contentsline {subsection}{\numberline {7.6}Ki\IeC {\h \ecircumflex }m th\IeC {\h \uhorn }}{20}
-\contentsline {section}{\numberline {8}K\IeC {\'\ecircumflex }t lu\IeC {\d \acircumflex }n}{21}
+\contentsline {subsection}{\numberline {7.6}Ki\IeC {\h \ecircumflex }m th\IeC {\h \uhorn }}{21}
+\contentsline {section}{\numberline {8}K\IeC {\'\ecircumflex }t lu\IeC {\d \acircumflex }n}{22}

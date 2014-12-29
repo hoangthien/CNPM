@@ -46,7 +46,7 @@ http://da-cnpm-uit-se7.googlecode.com/svn/trunk/ da-cnpm-uit-se7-read-only
 + Kiểm thử hộp đen
     * Hoàn thành chương trình sẽ được kiểm thử theo phương pháp hộp đen
     * Đảm bảo các chức năng của chương trình hoạt động như dự kiến, người kiểm thử trong bước kiểm thử hộp đen không tham gia code.
-+ [] Nhắc lại về yêu cầu của bản thiết kế PM -> PM sau khi code đã đáp ứng được hay chưa?
++ [ ] Nhắc lại về yêu cầu của bản thiết kế PM -> PM sau khi code đã đáp ứng được hay chưa?
 + [ ] Thực hiện công việc đúng như kỳ vọng?
 + [ ] Có thể triển khai với các đặc tính tương tự
 + [ ] Đáp ứng đưọc mọi nhu cầu của các bên liên quan?
