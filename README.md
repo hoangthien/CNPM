@@ -1,7 +1,7 @@
 # Tiến độ của báo cáo CNPM
 _Báo cáo tiến độ của báo cáo_
 
-+ [ ] Bìa báo cáo (2 bìa)
++ [x] Bìa báo cáo (2 bìa)
 + [x] Thêm Header & Footer (How to do that???)
 + [x] Menu
 + [x] Khảo sát hiện trạng và phát biểu bài toán
