@@ -12,3 +12,4 @@ _Báo cáo tiến độ của báo cáo_
 + [ ] Kế hoạch lập trình và kiểm thử đơn vị
 + [ ] Kết luận
 + [ ] Những gì đã làm được và chưa làm được
++ [ ] Sơ đồ quan hệ giữa các màn hình?
