@@ -7,7 +7,7 @@ _Báo cáo tiến độ của báo cáo_
 + [x] Khảo sát hiện trạng và phát biểu bài toán
 + [x] Phân tích và đặc tả yêu cầu
 + [x] Thiết ké giao diện
-+ [ ] Thiết kế dữ liệu
++ [x] Thiết kế dữ liệu
 + [ ] Thiết kế xử lý
 + [ ] Kế hoạch lập trình và kiểm thử đơn vị
 + [ ] Kết luận

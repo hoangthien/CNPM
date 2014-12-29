@@ -638,15 +638,128 @@
 	
 	
 	\section{Thiết kế dữ liệu}
-	\subsection{Sơ đồ logic}
-	\subsection{Mô tả chi tiết các kiểu dữ liệu trong sơ đồ logic}
-	
+		\subsection{Thiết kế dữ liệu}
+			\begin{itemize}
+				\item KHACHHANG (\underline{MaKH}, HoTen, CMND, DiaChi, NgSinh, NgDangKy)
+				\item NHANVIEN (\underline{MaNV}, HoTen, CMND, DiaChi, NgSinh, ChucVu, Luong)
+				\item CACLOAITIETKIEM (\underline{MaLTK}, LoaiTietKiem, LaiSuat, SoTienGuiMin, SoNgayGuiMin)
+				\item SOTIETKIEM (\underline{MaSTK}, MaKH, MaNV, MaLTK, SoTienGui, NgMoSo)
+				\item PHIEUGUITIEN (\underline{MaPhieu}, MaSTK, MaNhanVienGD, NgGui, SoTien)
+				\item PHIEURUTTIEN (\underline{MaPhieu}, MaSTK, MaNhanVienGD, NgRut, SoTien)
+			\end{itemize}
+			
+			\newpage
+			\begin{center}				
+				\begin{tabular}{|l|l|l|l|p{4.5cm}|}
+					\hline
+					STT & Thuộc tính & Kiểu dữ liệu & Giá trị khởi động & Ràng buộc\\
+					\hline
+					1 & CMND & char(9) & NULL & \parbox[t]{4.5cm}{Not NULL\\ Không được là chữ\\ Không được dài quá 9 chữ số} \\
+					\hline
+					2 & LoaiTietKiem & varchar(30) & NULL & \parbox[t]{4.5cm}{Chỉ được là 1 trong 3 chính sách hợp lệ}\\
+					\hline
+					3 & SoTienGui & money & & \parbox[t]{4.5cm}{Lớn hơn 100000}\\
+					\hline					
+				\end{tabular}
+			\end{center}
+			
+	\subsection{Mô hình vật lý}
+		\begin{figure}[!h]
+			\includegraphics[width=\linewidth]{GUI/SQL.png}
+			\caption{Relational Data Modeling}
+			\label{fig:RDM}
+		\end{figure}
 	\section{Mô hình và thiết kế xử lý}
-	\subsection{Danh sách các hàm xử lý}
-	\subsection{Các sơ đồ kết hợp}
+		\subsection{Danh sách các hàm xử lý}
+		
+			\begin{tabular}{|c|c|c|p{4.5cm}|}
+				\hline
+				STT & Mã xử lý & Tên xử lý & Mô tả\\
+				\hline
+				1 & XL1 & Mở sổ tiết kiệm & Mở sổ tiết kiệm khi khách hàng mới gửi tiền lần đầu\\
+				\hline
+				2 & XL2 & Lưu và in sổ tiết kiệm & Lưu thông tin của khách hàng xuống CSDL, thông báo kết quả của việc lưu và in sổ ra cho khách hàng\\
+				\hline
+				3 & XL3 & Lập phiếu gửi tiền & Lập phiếu gửi khi khách hàng muốn gửi tiền vào sổ tiết kiệm\\
+				\hline
+				4 & XL4 & Lưu phiếu gửi tiền & Lưu thông tin của khách hàng xuống CSDL và in ra cho khách hàng\\
+				\hline
+				5 & XL5 & Lập phiếu rút tiền và lưu in & Khi khách hàng muốn rút tiền trong sổ ra lập phiếu rút tiền, lưu thông tin xuống CSDL và in ra cho khách hàng\\
+				\hline
+				6 & XL6 & Tra cứu sổ & Cho phép tìm kiếm thông tin của một sổ để xem, cập nhật thông tin\\
+				\hline
+				7 & XL7 & Lập báo cáo ngày & Báo cáo thu chi số lượng tiền rút ra và thu vào trong ngày\\
+				\hline
+				8 & XL8 & Lập báo cáo tháng & Báo cáo thu chi số lượng tiền trong tháng.\\
+				\hline
+			\end{tabular}
+		
+		\subsection{Mô tả chi tiết các xử lý}
 	
-	\section{Kế hoạch lập trình và kiểm thử đơn vị}
-	
+		\section{Kế hoạch lập trình và kiểm thử đơn vị}
+			\subsection{Môi trường lập trình}
+				\begin{itemize}
+					\item IDE: Visual Studio 2013 Ultimate
+					\item Ngôn ngữ lập trình: C\#
+					\item Thư viện phụ thuộc: .Net framework 4.5
+					\item Sử dụng SVN để quản lý phiên bản. (Google Code + Tortoise svn client)
+				\end{itemize}
+				
+			\subsection{Phương pháp lập trình}
+			
+				\begin{itemize}
+					\item Hướng đối tượng, các đối tượng chính:
+					
+						\begin{itemize}
+							\item Nhân viên
+							\item Sổ tiết kiệm
+							\item Khách hàng
+							\item Chính sách tiết kiệm
+						\end{itemize}
+					\item Phương pháp tiếp cận Top - Down
+					
+						\begin{itemize}
+							\item Khái quát chương trình cần quản lý sổ tiết kiệm của khách hàng, cho phép thực hiện các thao tác \textit{Tạo sổ, Gửi tiền, Rút tiền.}
+							\item 2 mức nhân viên: \textit{NV thường, NV quản lý}
+							\item Các chính sách tiết kiệm
+							
+								\begin{itemize}
+									\item Không kỳ hạn
+									\item Kỳ hạn 3 tháng
+									\item Kỳ hạn 6 tháng
+								\end{itemize}
+							
+						\end{itemize}
+					
+				\end{itemize}
+			
+			\subsection{Tổ chức kiến trúc chương trình}
+			
+				\begin{itemize}
+					\item Sử dụng mô hình 3 lớp
+					
+						\begin{itemize}
+							\item GUI: Sử dụng form C\# để thiết kế giao diện
+							\item Logic: xử lý các yêu cầu, ràng buộc của chương trình
+							\item CSDL: lưu trữ thông tin của các bảng gồm thông tin người dùng, thông tin sổ tiết kiệm, lịch sử giao dịch.
+						\end{itemize}
+					
+					\item Triển khai trên máy local - 1 tầng
+				\end{itemize}
+			
+			\subsection{Quản lý version}
+			
+				\begin{itemize}
+					\item SVN để quản lý phiên bản code
+					\item http://da-cnpm-uit-se7.googlecode.com/svn/trunk/
+					\item Git để quản lý phiên bản báo các và tài liệu
+					\item https://github.com/vunhan/CNPM
+				\end{itemize}
+			
+			\subsection{Chuẩn viết mã}
+			\subsection{Kiểm thử}
+			
+	\newpage			
 	\section{Kết luận}
 	
 	Trong quá trình thực hiện đồ án, nhóm còn vấp phải nhiều sai sót...
