@@ -8,11 +8,11 @@
 \contentsline {subsection}{\numberline {4.1}Danh s\IeC {\'a}ch c\IeC {\'a}c m\IeC {\`a}n h\IeC {\`\i }nh}{7}
 \contentsline {subsection}{\numberline {4.2}S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } c\IeC {\'a}c m\IeC {\`a}n h\IeC {\`\i }nh}{7}
 \contentsline {subsection}{\numberline {4.3}M\IeC {\^o} t\IeC {\h a} chi ti\IeC {\'\ecircumflex }t c\IeC {\'a}c m\IeC {\`a}n h\IeC {\`\i }nh}{8}
-\contentsline {section}{\numberline {5}Thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{11}
-\contentsline {subsection}{\numberline {5.1}S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } logic}{11}
-\contentsline {subsection}{\numberline {5.2}M\IeC {\^o} t\IeC {\h a} chi ti\IeC {\'\ecircumflex }t c\IeC {\'a}c ki\IeC {\h \ecircumflex }u d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u trong s\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } logic}{11}
-\contentsline {section}{\numberline {6}M\IeC {\^o} h\IeC {\`\i }nh v\IeC {\`a} thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } x\IeC {\h \uhorn } l\IeC {\'y}}{11}
-\contentsline {subsection}{\numberline {6.1}Danh s\IeC {\'a}ch c\IeC {\'a}c h\IeC {\`a}m x\IeC {\h \uhorn } l\IeC {\'y}}{11}
-\contentsline {subsection}{\numberline {6.2}C\IeC {\'a}c s\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } k\IeC {\'\ecircumflex }t h\IeC {\d \ohorn }p}{11}
-\contentsline {section}{\numberline {7}K\IeC {\'\ecircumflex } ho\IeC {\d a}ch l\IeC {\d \acircumflex }p tr\IeC {\`\i }nh v\IeC {\`a} ki\IeC {\h \ecircumflex }m th\IeC {\h \uhorn } \IeC {\dj }\IeC {\ohorn }n v\IeC {\d i}}{11}
-\contentsline {section}{\numberline {8}K\IeC {\'\ecircumflex }t lu\IeC {\d \acircumflex }n}{11}
+\contentsline {section}{\numberline {5}Thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{12}
+\contentsline {subsection}{\numberline {5.1}S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } logic}{12}
+\contentsline {subsection}{\numberline {5.2}M\IeC {\^o} t\IeC {\h a} chi ti\IeC {\'\ecircumflex }t c\IeC {\'a}c ki\IeC {\h \ecircumflex }u d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u trong s\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } logic}{12}
+\contentsline {section}{\numberline {6}M\IeC {\^o} h\IeC {\`\i }nh v\IeC {\`a} thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } x\IeC {\h \uhorn } l\IeC {\'y}}{12}
+\contentsline {subsection}{\numberline {6.1}Danh s\IeC {\'a}ch c\IeC {\'a}c h\IeC {\`a}m x\IeC {\h \uhorn } l\IeC {\'y}}{12}
+\contentsline {subsection}{\numberline {6.2}C\IeC {\'a}c s\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } k\IeC {\'\ecircumflex }t h\IeC {\d \ohorn }p}{12}
+\contentsline {section}{\numberline {7}K\IeC {\'\ecircumflex } ho\IeC {\d a}ch l\IeC {\d \acircumflex }p tr\IeC {\`\i }nh v\IeC {\`a} ki\IeC {\h \ecircumflex }m th\IeC {\h \uhorn } \IeC {\dj }\IeC {\ohorn }n v\IeC {\d i}}{12}
+\contentsline {section}{\numberline {8}K\IeC {\'\ecircumflex }t lu\IeC {\d \acircumflex }n}{12}
