@@ -2,6 +2,8 @@
 \usepackage[T5]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{booktabs}
+
 
 \title{Báo cáo Nhập môn Công nghệ phần mềm}
 \date{20-12-2014}
@@ -232,12 +234,144 @@
 			
 		\end{itemize}
 	
+	
+	\subsection{Sơ đồ các màn hình}
+	
+		\begin{itemize}
+			
+			\item Đối với nhân viên
+			
+			\item Đối với quản lý
+			
+		\end{itemize}
+	
+	\newpage
+	
 	\subsection{Mô tả chi tiết các màn hình}
 	
 		\begin{enumerate}
-			\item Màn hình đăng nhập
+			\item Màn hình đăng nhập - frmDangNhap
+			
+				%Chèn hình của form đăng nhập vô.
+				\begin{figure}[!h]
+					\includegraphics[width=\linewidth]{GUI/Login.jpg}
+					\caption{frmDangNhap}
+					\label{fig:frmDangNhap}
+				\end{figure}
+				
+%				Vẽ bảng biểu diễn form đăng nhập
+					
+					\begin{tabular}{|c|c|c| p{5cm}|}
+						
+						\hline
+						STT & Tên Control & Loại Control & Chức năng \\
+						\hline
+						1 & btLogin & Button & Truyền dữ liệu từ form đăng nhập vào kiểm tra tính hợp lệ trong CSDL. Hiển thị giao diện sử dụng hoặc thông báo đăng nhập thất bại.\\
+						\hline
+						2 & btReset & Button & Xóa trắc các thông tin trong tại form Đăng nhập, cho phép người dùng nhập lại. \\
+						\hline
+						
+					\end{tabular}
+				
+			\newpage
+			
 			\item Màn hình chính của chương trình
-			\item Các man hình thông báo
+			
+				\begin{itemize}
+					\item Nhân viên
+					
+		%			Hình - Màn hình chính của Nhân viên
+					\begin{figure}[!h]
+						\setlength\fboxsep{1pt}
+						\setlength\fboxrule{1pt}
+						\fbox{\includegraphics[width=\linewidth]{GUI/MainWND_NV.jpg}}
+						\caption{frmManHinhChinhNV}
+						\label{fig:frmManHinhChinhNV}
+					\end{figure}
+					
+					% Vẽ bảng biểu diễn form màn hình chính Nhân viên
+					
+			
+				\begin{center}
+						\begin{tabular}{|c|c|c|p{5cm}|}
+						
+						\hline
+						STT & Tên Control & Loại Control & Chức năng \\
+						\hline
+						1 & btHome & Button & Quay trở về màn hình chính\\
+						\hline
+						2 & btLogout & Button & Đăng xuất khỏi chương trình \\
+						\hline
+						3 & btAdd & Button & Mở chức năng Lập sổ tiết kiệm \\
+						\hline
+						4 & btCheckIn & Butoon & Mở chức năng gửi tiền \\
+						\hline
+						5 & btcheckOut & Button & Mở chức năng rút tiền \\
+						\hline
+						6 & textboxSearch & TextBox & Nhập thông tin tìm kiếm \\
+						\hline
+						7 & btSearch & Button & Tìm kiếm theo khóa nhập vào từ TextBox\\
+						\hline
+						8 & labelUser & Label & Hiển thị thông tin người dùng đang đăng nhập\\
+						\hline
+					\end{tabular}
+				\end{center}
+				
+					
+					\newpage
+					
+					\item Quản lý
+					
+%					Hình - Màn hình chính của Quản lý
+					\begin{figure}[!h]
+						\setlength\fboxsep{1pt}
+						\setlength\fboxrule{1pt}
+						\fbox{\includegraphics[width=\linewidth]{GUI/MainWND_Boss.jpg}}
+						\caption{frmManHinhChinhQL}
+						\label{fig:frmManHinhChinhQL}
+					\end{figure}
+					
+					% Vẽ bảng biểu diễn Form Màn hình chính - Quản lý
+					\begin{tabular}{|c|c|c| p{5cm}|}
+						
+						\hline
+						STT & Tên Control & Loại Control & Chức năng \\
+						\hline
+						1 & btHome & Button & Quay trở về màn hình chính\\
+						\hline
+						2 & btLogout & Button & Đăng xuất khỏi chương trình \\
+						\hline
+						3 & btAdd & Button & Mở chức năng Lập sổ tiết kiệm \\
+						\hline
+						4 & btCheckIn & Butoon & Mở chức năng gửi tiền \\
+						\hline
+						5 & btcheckOut & Button & Mở chức năng rút tiền \\
+						\hline
+						6 & textboxSearch & TextBox & Nhập thông tin tìm kiếm \\
+						\hline
+						7 & btSearch & Button & Tìm kiếm theo khóa nhập vào từ TextBox\\
+						\hline
+						8 & labelUser & Label & Hiển thị thông tin người dùng đang đăng nhập\\
+						\hline
+						9 & btQuanLy & Button & Chức năng quản lý\\
+						\hline
+					\end{tabular}
+					
+				\end{itemize}
+			
+
+			\newpage
+			
+			\item Các màn hình chức năng
+			
+				\begin{enumerate}
+					\item Màn hình tạo sổ
+					\item Màn hình gửi tiền
+					\item Màn hình rút tiền
+					
+				\end{enumerate}
+			
+			\item Các màn hình thông báo
 		\end{enumerate}
 	
 	
