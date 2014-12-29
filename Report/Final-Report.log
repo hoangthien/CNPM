@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2014.12.22)  29 DEC 2014 19:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2014.12.22)  30 DEC 2014 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -607,29 +607,102 @@ Overfull \hbox (4.0pt too wide) in paragraph at lines 376--377
 [][] 
  []
 
-
-Overfull \hbox (68.49855pt too wide) in paragraph at lines 383--416
+[11 <./GUI/Add.png>]
+Overfull \hbox (66.27687pt too wide) in paragraph at lines 386--440
 [][] 
  []
 
-[11 <./GUI/Add.png>] [12] (./Final-Report.aux) ) 
+[12] <GUI/GuiTien.jpg, id=52, 1371.1225pt x 770.88pt>
+File: GUI/GuiTien.jpg Graphic file (type jpg)
+ <use GUI/GuiTien.jpg>
+Package pdftex.def Info: GUI/GuiTien.jpg used on input line 450.
+(pdftex.def)             Requested size: 345.0pt x 193.96637pt.
+
+Overfull \hbox (4.0pt too wide) in paragraph at lines 450--451
+[][] 
+ []
+
+
+Overfull \hbox (29.64693pt too wide) in paragraph at lines 458--500
+[][] 
+ []
+
+<GUI/RutTien.jpg, id=53, 1371.1225pt x 770.88pt>
+File: GUI/RutTien.jpg Graphic file (type jpg)
+ <use GUI/RutTien.jpg>
+Package pdftex.def Info: GUI/RutTien.jpg used on input line 506.
+(pdftex.def)             Requested size: 345.0pt x 193.96637pt.
+
+Overfull \hbox (4.0pt too wide) in paragraph at lines 506--507
+[][] 
+ []
+
+[13 <./GUI/GuiTien.jpg>]
+Overfull \hbox (29.64693pt too wide) in paragraph at lines 511--553
+[][] 
+ []
+
+[14 <./GUI/RutTien.jpg>] <GUI/GuiTienTC.jpg, id=61, 1371.1225pt x 770.88pt>
+File: GUI/GuiTienTC.jpg Graphic file (type jpg)
+
+<use GUI/GuiTienTC.jpg>
+Package pdftex.def Info: GUI/GuiTienTC.jpg used on input line 564.
+(pdftex.def)             Requested size: 345.0pt x 193.96637pt.
+
+Overfull \hbox (4.0pt too wide) in paragraph at lines 564--565
+[][] 
+ []
+
+
+Overfull \hbox (29.64693pt too wide) in paragraph at lines 569--591
+[][] 
+ []
+
+[15 <./GUI/GuiTienTC.jpg>] <GUI/GuiTienTB.jpg, id=65, 1371.1225pt x 770.88pt>
+File: GUI/GuiTienTB.jpg Graphic file (type jpg)
+
+<use GUI/GuiTienTB.jpg>
+Package pdftex.def Info: GUI/GuiTienTB.jpg used on input line 598.
+(pdftex.def)             Requested size: 345.0pt x 193.96637pt.
+
+Overfull \hbox (4.0pt too wide) in paragraph at lines 598--599
+[][] 
+ []
+
+
+Overfull \hbox (29.64693pt too wide) in paragraph at lines 603--625
+[][] 
+ []
+
+[16 <./GUI/GuiTienTB.jpg>] <GUI/Manage.jpg, id=69, 1371.1225pt x 770.88pt>
+File: GUI/Manage.jpg Graphic file (type jpg)
+
+<use GUI/Manage.jpg>
+Package pdftex.def Info: GUI/Manage.jpg used on input line 631.
+(pdftex.def)             Requested size: 345.0pt x 193.96637pt.
+
+Overfull \hbox (4.0pt too wide) in paragraph at lines 631--632
+[][] 
+ []
+
+[17 <./GUI/Manage.jpg>] (./Final-Report.aux) ) 
 Here is how much of TeX's memory you used:
- 2374 strings out of 493108
- 29678 string characters out of 6140724
- 88626 words of memory out of 5000000
- 5810 multiletter control sequences out of 15000+600000
+ 2404 strings out of 493108
+ 30227 string characters out of 6140724
+ 91671 words of memory out of 5000000
+ 5835 multiletter control sequences out of 15000+600000
  11155 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,23p,665b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/
-vnbx10.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/
-texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb></usr/share/texmf-dist/fonts/type
-1/vntex/vnr/vnr10.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on Final-Report.pdf (12 pages, 562231 bytes).
+</usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vn
+bx10.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/te
+xmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb></usr/share/texmf-dist/fonts/type1/
+vntex/vnr/vnr10.pfb></usr/share/texmf-dist/fonts/type1/vntex/vnr/vnti10.pfb>
+Output written on Final-Report.pdf (17 pages, 1740330 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

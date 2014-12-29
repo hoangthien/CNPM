@@ -379,7 +379,10 @@
 							\end{figure}
 						\end{flushleft}
 
+						\newpage
 %						Bảng
+						Chi tiết màn hình Lập sổ
+						
 						\begin{tabular}{|c|c|c| p{5cm}|}
 							
 							\hline
@@ -407,22 +410,230 @@
 							\hline
 							13 & labelTenKhachHang & Label & Tiêu đề Tên Khách Hàng \\
 							\hline
-							14 & textboxTenKhachHang & TextBox & Ô nhập Tên khách hàng \\
+							14 & txtTenKhachHang & TextBox & Ô nhập Tên khách hàng \\
 							\hline
-							15 & labelCMND & Label & Tiêu đề CMND \\
+							15 & lbCMND & Label & Tiêu đề CMND \\
 							\hline
-							16 & textboxCMND & TextBox & Ô nhập CMND\\
+							16 & txtCMND & TextBox & Ô nhập CMND\\
 							\hline
-							
+							17 & lbDiaChi & Label & Tiêu đề Địa chỉ\\
+							\hline
+							18 & txtboxDiaChi & TextBox & Ô nhập địa chỉ\\
+							\hline
+							19 & lbLoaiTietKiem & Label & Tiêu đề Loại Tiết kiệm\\
+							\hline
+							20 & cboLoaiTietKiem & Checkbox & Hộp chọn Loại tiết kiệm\\
+							\hline
+							21 & lbSoTienGui & Label & Tiêu đề Số Tiền gửi\\
+							\hline
+							22 & txtSoTienGui & TextBox & Ô nhập Số tiền gửi\\
+							\hline
+							23 & lbNgayMoSo & Label & Tiêu đề ngày hết hạn\\
+							\hline
+							24 & txtNgayMoSo & TextBox & Ô nhập vào ngày mở sổ\\
+							\hline
+							25 & btSave & Button & Nút lưu sổ\\
+							\hline
+							26 & btCancel & Button & Nút hủy việc tạo sổ\\
+							\hline
 						\end{tabular}
 						
+					\newpage
 					
 					\item Màn hình gửi tiền
+					
+					%	Hình
+					
+						\begin{figure}[!h]
+							\setlength\fboxsep{1pt}
+							\setlength\fboxrule{1pt}
+							\fbox{\includegraphics[width=\linewidth]{GUI/GuiTien.jpg}}
+							\caption{frmGuiTien}
+							\label{fig:frmGuiTien}
+						\end{figure}
+						
+						
+						Chi tiết màn hình Gửi tiền
+						
+						\begin{tabular}{|c|c|c| p{5cm}|}
+							
+							\hline
+							STT & Tên Control & Loại Control & Chức năng \\
+							\hline
+							1 & btHome & Button & Quay trở về màn hình chính\\
+							\hline
+							2 & btLogout & Button & Đăng xuất khỏi chương trình \\
+							\hline
+							3 & btAdd & Button & Mở chức năng Lập sổ tiết kiệm \\
+							\hline
+							6 & textboxSearch & TextBox & Nhập thông tin tìm kiếm \\
+							\hline
+							7 & btSearch & Button & Tìm kiếm theo khóa nhập vào từ TextBox\\
+							\hline
+							8 & labelUser & Label & Hiển thị thông tin người dùng đang đăng nhập\\
+							\hline
+							9 & btSave & Button & Nút lưu giao dịch gửi tiền\\
+							\hline
+							10 & btDelete & Button & Nút hủy giao dịch gửi tiền\\
+							\hline
+							11 & lbMaSo & Label & Tiêu đề mã sổ\\
+							\hline
+							12 & txtMaSo & Textbox & Ô nhập mã sổ\\
+							\hline
+							13 & lbTenKH & Label & Tiêu đề tên khách hàng\\
+							\hline
+							14 & txtTenKH & Textbox & Ô nhập tên khách hàng\\
+							\hline
+							15 & lbCMND & Label & Tiêu đề hiển thị CMND\\
+							\hline
+							16 & txtCMND & Textbox & Ô nhập CMND\\
+							\hline
+							17 & lbSoTienGui & Label & Tiêu đề số tiền gửi\\
+							\hline
+							18 & txtSoTienGui & Textbox & Ô nhập số tiền gửi\\
+							\hline
+							19 & lbNgayGui & Label & Tiêu đề ngày gửi\\
+							\hline
+							20 & txtNgayGui & Textbox & Ô nhập ngày gửi\\
+							\hline
+						\end{tabular}
+					
 					\item Màn hình rút tiền
+					
+					\begin{figure}[!h]
+						\setlength\fboxsep{1pt}
+						\setlength\fboxrule{1pt}
+						\fbox{\includegraphics[width=\linewidth]{GUI/RutTien.jpg}}
+						\caption{frmRutTien}
+						\label{fig:frmRutTien}
+					\end{figure}
+					
+					\begin{tabular}{|c|c|c| p{5cm}|}
+						
+						\hline
+						STT & Tên Control & Loại Control & Chức năng \\
+						\hline
+						1 & btHome & Button & Quay trở về màn hình chính\\
+						\hline
+						2 & btLogout & Button & Đăng xuất khỏi chương trình \\
+						\hline
+						3 & btAdd & Button & Mở chức năng Lập sổ tiết kiệm \\
+						\hline
+						6 & textboxSearch & TextBox & Nhập thông tin tìm kiếm \\
+						\hline
+						7 & btSearch & Button & Tìm kiếm theo khóa nhập vào từ TextBox\\
+						\hline
+						8 & labelUser & Label & Hiển thị thông tin người dùng đang đăng nhập\\
+						\hline
+						9 & btSave & Button & Nút lưu giao dịch rút tiền\\
+						\hline
+						10 & btDelete & Button & Nút hủy giao dịch rút tiền\\
+						\hline
+						11 & lbMaSo & Label & Tiêu đề mã sổ\\
+						\hline
+						12 & txtMaSo & Textbox & Ô nhập mã sổ\\
+						\hline
+						13 & lbTenKH & Label & Tiêu đề tên khách hàng\\
+						\hline
+						14 & txtTenKH & Textbox & Ô nhập tên khách hàng\\
+						\hline
+						15 & lbCMND & Label & Tiêu đề hiển thị CMND\\
+						\hline
+						16 & txtCMND & Textbox & Ô nhập CMND\\
+						\hline
+						17 & lbSoTienRut & Label & Tiêu đề số tiền rút\\
+						\hline
+						18 & txtSoTienRut & Textbox & Ô nhập số tiền rút\\
+						\hline
+						19 & lbNgayRut & Label & Tiêu đề ngày rút\\
+						\hline
+						20 & txtNgayRut & Textbox & Ô nhập ngày rút\\
+						\hline
+					\end{tabular}
 					
 				\end{enumerate}
 			
 			\item Các màn hình thông báo
+			
+				\begin{itemize}
+					\item Thông báo thành công
+					
+						\begin{figure}[!h]
+							\setlength\fboxsep{1pt}
+							\setlength\fboxrule{1pt}
+							\fbox{\includegraphics[width=\linewidth]{GUI/GuiTienTC.jpg}}
+							\caption{frmGuiTienTC}
+							\label{fig:frmGuiTienTC}
+						\end{figure}
+						
+						\begin{tabular}{|c|c|c| p{5cm}|}
+							
+							\hline
+							STT & Tên Control & Loại Control & Chức năng \\
+							\hline
+							1 & btHome & Button & Quay trở về màn hình chính\\
+							\hline
+							2 & btLogout & Button & Đăng xuất khỏi chương trình \\
+							\hline
+							3 & btGuiTien & Button & Mở chức năng gửi tiền \\
+							\hline
+							6 & textboxSearch & TextBox & Nhập thông tin tìm kiếm \\
+							\hline
+							7 & btSearch & Button & Tìm kiếm theo khóa nhập vào từ TextBox\\
+							\hline
+							8 & labelUser & Label & Hiển thị thông tin người dùng đang đăng nhập\\
+							\hline
+							9 & lbSuccess & Label & Tiêu đê thông báo thành công\\
+							\hline
+							10 & pbSuccess & PictureBox & Hình ảnh thể hiện việc giao dịch thành công\\
+							\hline								
+						\end{tabular}
+					
+					\newpage
+					\item Thông báo thất bại
+					
+					\begin{figure}[!h]
+						\setlength\fboxsep{1pt}
+						\setlength\fboxrule{1pt}
+						\fbox{\includegraphics[width=\linewidth]{GUI/GuiTienTB.jpg}}
+						\caption{frmGuiTienTB}
+						\label{fig:frmGuiTienTB}
+					\end{figure}
+					
+					\begin{tabular}{|c|c|c| p{5cm}|}
+						
+						\hline
+						STT & Tên Control & Loại Control & Chức năng \\
+						\hline
+						1 & btHome & Button & Quay trở về màn hình chính\\
+						\hline
+						2 & btLogout & Button & Đăng xuất khỏi chương trình \\
+						\hline
+						3 & btGuiTien & Button & Mở chức năng gửi tiền \\
+						\hline
+						6 & textboxSearch & TextBox & Nhập thông tin tìm kiếm \\
+						\hline
+						7 & btSearch & Button & Tìm kiếm theo khóa nhập vào từ TextBox\\
+						\hline
+						8 & labelUser & Label & Hiển thị thông tin người dùng đang đăng nhập\\						
+						\hline
+						9 & lbFail & Label & Tiêu đê thông báo thất bại\\
+						\hline
+						10 & pbFail & PictureBox & Hình ảnh thể hiện việc giao dịch thất bại\\
+						\hline						
+					\end{tabular}
+					
+					\newpage
+					\item Màn hình thống kê - quản lý
+						\begin{figure}[!h]
+							\setlength\fboxsep{1pt}
+							\setlength\fboxrule{1pt}
+							\fbox{\includegraphics[width=\linewidth]{GUI/Manage.jpg}}
+							\caption{frmThongKe}
+							\label{fig:frmThongKe}
+						\end{figure}
+				\end{itemize}
+			
 		\end{enumerate}
 	
 	
